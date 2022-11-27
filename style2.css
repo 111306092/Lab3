@@ -1,0 +1,46 @@
+nav{
+	font-weight: bold;
+	color: black;
+	border: 3px solid black;
+	text-align: center;
+	width: 10em;
+	background-color: lightblue;
+	padding: 10px;
+	position: absolute;
+	top: 200px;
+	left: 550px;
+}
+nav ul{
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+}
+nav:hover ul{
+	display: block;
+}
+nav ul li{
+	border-top: 3px solid black;
+	background-color: white;
+	width: 10em;
+	color: red;
+	margin: 10;
+	border-style: double ;
+}
+body{
+	background-color: lightgray;
+	font-family: "Times New Roman",Times,serif;
+}
+#head{
+	padding: 20px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+p{
+	padding: 10px;
+	background-color: dimgray;
+	color: white;
+	text-align: center;
+}
